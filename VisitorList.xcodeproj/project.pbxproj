@@ -14,6 +14,8 @@
 		C3D026C028EACC1000CC7FD6 /* VisitorList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3D026BE28EACC1000CC7FD6 /* VisitorList.xcdatamodeld */; };
 		C3D026C228EACC1100CC7FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D026C128EACC1100CC7FD6 /* Assets.xcassets */; };
 		C3D026C528EACC1100CC7FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D026C328EACC1100CC7FD6 /* LaunchScreen.storyboard */; };
+		C3D026CD28EACCA700CC7FD6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D026CC28EACCA700CC7FD6 /* DetailViewController.swift */; };
+		C3D026D128EAD1C200CC7FD6 /* SelectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D026D028EAD1C200CC7FD6 /* SelectImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		C3D026C128EACC1100CC7FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3D026C428EACC1100CC7FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3D026C628EACC1100CC7FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D026CC28EACCA700CC7FD6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C3D026CF28EAD05700CC7FD6 /* SelectImage.png.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = SelectImage.png.sketch; sourceTree = "<group>"; };
+		C3D026D028EAD1C200CC7FD6 /* SelectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SelectImage.png; path = ../../SelectImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +63,12 @@
 		C3D026B428EACC1000CC7FD6 /* VisitorList */ = {
 			isa = PBXGroup;
 			children = (
+				C3D026D028EAD1C200CC7FD6 /* SelectImage.png */,
+				C3D026CF28EAD05700CC7FD6 /* SelectImage.png.sketch */,
 				C3D026B528EACC1000CC7FD6 /* AppDelegate.swift */,
 				C3D026B728EACC1000CC7FD6 /* SceneDelegate.swift */,
 				C3D026B928EACC1000CC7FD6 /* ViewController.swift */,
+				C3D026CC28EACCA700CC7FD6 /* DetailViewController.swift */,
 				C3D026BB28EACC1000CC7FD6 /* Main.storyboard */,
 				C3D026C128EACC1100CC7FD6 /* Assets.xcassets */,
 				C3D026C328EACC1100CC7FD6 /* LaunchScreen.storyboard */,
@@ -129,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3D026C528EACC1100CC7FD6 /* LaunchScreen.storyboard in Resources */,
+				C3D026D128EAD1C200CC7FD6 /* SelectImage.png in Resources */,
 				C3D026C228EACC1100CC7FD6 /* Assets.xcassets in Resources */,
 				C3D026BD28EACC1000CC7FD6 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +152,7 @@
 			files = (
 				C3D026C028EACC1000CC7FD6 /* VisitorList.xcdatamodeld in Sources */,
 				C3D026BA28EACC1000CC7FD6 /* ViewController.swift in Sources */,
+				C3D026CD28EACCA700CC7FD6 /* DetailViewController.swift in Sources */,
 				C3D026B628EACC1000CC7FD6 /* AppDelegate.swift in Sources */,
 				C3D026B828EACC1000CC7FD6 /* SceneDelegate.swift in Sources */,
 			);
